@@ -1,0 +1,27 @@
+/* ---------- Art catalogue (Art.html) ---------- */
+
+.catalogue {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.catalogue figure {
+    margin: 0;
+}
+
+.catalogue img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.catalogue figcaption {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.catalogue .art-date {
+    color: #777;
+    margin-left: 0.3rem;
+}
